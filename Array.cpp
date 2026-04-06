@@ -40,5 +40,9 @@ int main() {
         cin >> kamu[i];
     }
     cout << endl;
-
+    // Menampilkan dengan perulangan for
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "Data ke-" << i+i << " = " << kamu[i] << endl;
+    }
 }
