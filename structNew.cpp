@@ -18,5 +18,9 @@ int main() {
     cout << "umur : " ;
     cin >> mhs.umur;
     cout << endl;
-    
+
+    // Tampilan
+    cout << " Nama : " << mhs.nama << endl;
+    cout << " Nama : " << mhs.alamat << endl;
+    cout << " Nama : " << mhs.umur << endl;
 }
